@@ -8,7 +8,7 @@
 
     <StackLayout BackgroundColor="#FFBF00" Padding="30" Spacing="30">
         <Image Source="logo.png" x:Name="logo"/>
-        <Entry Placeholder="Digite o CEP" PlaceholderColor="#FFBF00" BackgroundColor="#FFFFFF" x:Name="tbCEP" MaxLength="8"/>
+        <Entry Placeholder="Digite o CEP" PlaceholderColor="#FFBF00" BackgroundColor="#FFFFFF" x:Name="tbCEP" MaxLength="8" Keyboard="Numeric"/>
         <Button Text="BUSCAR CEP" TextColor="#FFFFFF" BackgroundColor="#00416B" x:Name="btnSearch"/>
        
         <Label Text="" 
